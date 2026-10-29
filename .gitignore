@@ -1,0 +1,24 @@
+# Secrets and local session state
+.env
+.env.*
+*.pem
+*.key
+session.json
+.wlxt/
+.wlxt-login-*/
+
+# Dependencies, downloads and temporary data
+node_modules/
+downloads/
+*.log
+*.tgz
+.DS_Store
+__pycache__/
+*.pyc
+
+# Tests and legacy local Python prototype are not published
+node-tests/
+tests/
+wlxt/
+pyproject.toml
+setup.py
